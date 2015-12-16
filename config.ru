@@ -7,5 +7,4 @@ $LOAD_PATH.unshift application_path
 
 require 'ops_test_app'
 
-eightbitraptor = OpsTestApp.new
-run eightbitraptor
+run OpsTestApp.new
